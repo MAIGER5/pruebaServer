@@ -1,10 +1,6 @@
-const express = require('express');
+const server = require('./app.js');
 
 
-const app = express();
 
-app.get('/', (req, res)=>{
-    res.end('HOLA KIKI')
-});
 
-app.listen(3000)
+server.listen(3000)
