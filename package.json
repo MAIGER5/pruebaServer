@@ -1,0 +1,23 @@
+{
+  "name": "appprueba",
+  "version": "1.0.0",
+  "description": "prueba de servidor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAIGER5/pruebaServer.git"
+  },
+  "author": "Maiger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MAIGER5/pruebaServer/issues"
+  },
+  "homepage": "https://github.com/MAIGER5/pruebaServer#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
